@@ -1,0 +1,72 @@
+[submodule "submodules/de.persosim.driver.connector"]
+	path = submodules/de.persosim.driver.connector
+	url = https://github.com/seamlessqm/de.persosim.driver.connector
+[submodule "submodules/de.persosim.driver.linux"]
+	path = submodules/de.persosim.driver.linux
+	url = https://github.com/seamlessqm/de.persosim.driver.linux
+[submodule "submodules/de.persosim.rcp"]
+	path = submodules/de.persosim.rcp
+	url = https://github.com/seamlessqm/de.persosim.rcp
+[submodule "submodules/de.persosim.simulator"]
+	path = submodules/de.persosim.simulator
+	url = https://github.com/seamlessqm/de.persosim.simulator
+[submodule "submodules/org.globaltester.base"]
+	path = submodules/org.globaltester.base
+	url = https://github.com/seamlessqm/org.globaltester.base
+[submodule "submodules/org.globaltester.control"]
+	path = submodules/org.globaltester.control
+	url = https://github.com/seamlessqm/org.globaltester.control
+[submodule "submodules/org.globaltester.control.soap"]
+	path = submodules/org.globaltester.control.soap
+	url = https://github.com/seamlessqm/org.globaltester.control.soap
+[submodule "submodules/org.globaltester.cryptoprovider"]
+	path = submodules/org.globaltester.cryptoprovider
+	url = https://github.com/seamlessqm/org.globaltester.cryptoprovider
+[submodule "submodules/org.globaltester.dev"]
+	path = submodules/org.globaltester.dev
+	url = https://github.com/seamlessqm/org.globaltester.dev
+[submodule "submodules/org.globaltester.junit"]
+	path = submodules/org.globaltester.junit
+	url = https://github.com/seamlessqm/org.globaltester.junit
+[submodule "submodules/org.globaltester.lib.apache.fop"]
+	path = submodules/org.globaltester.lib.apache.fop
+	url = https://github.com/seamlessqm/org.globaltester.lib.apache.fop
+[submodule "submodules/org.globaltester.lib.xstream"]
+	path = submodules/org.globaltester.lib.xstream
+	url = https://github.com/seamlessqm/org.globaltester.lib.xstream
+[submodule "submodules/org.globaltester.lib.smartcardio"]
+	path = submodules/org.globaltester.lib.smartcardio
+	url = https://github.com/seamlessqm/org.globaltester.lib.smartcardio
+[submodule "submodules/org.globaltester.lib.apache.xml"]
+	path = submodules/org.globaltester.lib.apache.xml
+	url = https://github.com/seamlessqm/org.globaltester.lib.apache.xml
+[submodule "submodules/org.globaltester.lib.domparser"]
+	path = submodules/org.globaltester.lib.domparser
+	url = https://github.com/seamlessqm/org.globaltester.lib.domparser
+[submodule "submodules/org.globaltester.lib.jaxws"]
+	path = submodules/org.globaltester.lib.jaxws
+	url = https://github.com/seamlessqm/org.globaltester.lib.jaxws
+[submodule "submodules/org.globaltester.lib.jmockit"]
+	path = submodules/org.globaltester.lib.jmockit
+	url = https://github.com/seamlessqm/org.globaltester.lib.jmockit
+[submodule "submodules/org.globaltester.logging.logfileeditor"]
+	path = submodules/org.globaltester.logging.logfileeditor
+	url = https://github.com/seamlessqm/org.globaltester.logging.logfileeditor
+[submodule "submodules/org.globaltester.logging.legacy"]
+	path = submodules/org.globaltester.logging.legacy
+	url = https://github.com/seamlessqm/org.globaltester.logging.legacy
+[submodule "submodules/org.globaltester.logging"]
+	path = submodules/org.globaltester.logging
+	url = https://github.com/seamlessqm/org.globaltester.logging
+[submodule "submodules/org.globaltester.parent"]
+	path = submodules/org.globaltester.parent
+	url = https://github.com/seamlessqm/org.globaltester.parent
+[submodule "submodules/org.globaltester.platform"]
+	path = submodules/org.globaltester.platform
+	url = https://github.com/seamlessqm/org.globaltester.platform
+[submodule "submodules/org.globaltester.service"]
+	path = submodules/org.globaltester.service
+	url = https://github.com/seamlessqm/org.globaltester.service
+[submodule "submodules/org.globaltester.simulator"]
+	path = submodules/org.globaltester.simulator
+	url = https://github.com/seamlessqm/org.globaltester.simulator
