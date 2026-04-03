@@ -58,9 +58,6 @@
 [submodule "submodules/org.globaltester.logging"]
 	path = submodules/org.globaltester.logging
 	url = https://github.com/seamlessqm/org.globaltester.logging
-[submodule "submodules/org.globaltester.parent"]
-	path = submodules/org.globaltester.parent
-	url = https://github.com/seamlessqm/org.globaltester.parent
 [submodule "submodules/org.globaltester.platform"]
 	path = submodules/org.globaltester.platform
 	url = https://github.com/seamlessqm/org.globaltester.platform
@@ -70,3 +67,6 @@
 [submodule "submodules/org.globaltester.simulator"]
 	path = submodules/org.globaltester.simulator
 	url = https://github.com/seamlessqm/org.globaltester.simulator
+[submodule "submodules/org.globaltester.parent"]
+	path = submodules/org.globaltester.parent
+	url = https://github.com/seamlessqm/org.globaltester.parent
