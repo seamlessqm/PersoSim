@@ -1,0 +1,18 @@
+[submodule "submodules/org.globaltester.parent"]
+	path = submodules/org.globaltester.parent
+	url = https://github.com/seamlessqm/org.globaltester.parent
+[submodule "submodules/org.globaltester.base"]
+	path = submodules/org.globaltester.base
+	url = https://github.com/seamlessqm/org.globaltester.base
+[submodule "submodules/org.globaltester.service"]
+	path = submodules/org.globaltester.service
+	url = https://github.com/seamlessqm/org.globaltester.service
+[submodule "submodules/org.globaltester.simulator"]
+	path = submodules/org.globaltester.simulator
+	url = https://github.com/seamlessqm/org.globaltester.simulator
+[submodule "submodules/org.globaltester.cryptoprovider"]
+	path = submodules/org.globaltester.cryptoprovider
+	url = https://github.com/seamlessqm/org.globaltester.cryptoprovider
+[submodule "submodules/de.persosim.simulator"]
+	path = submodules/de.persosim.simulator
+	url = https://github.com/seamlessqm/de.persosim.simulator
