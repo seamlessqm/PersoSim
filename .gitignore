@@ -1,3 +1,7 @@
 builds
 *.zip
 info.md
+linux
+windows
+output
+*.jar
