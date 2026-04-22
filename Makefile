@@ -1,3 +1,5 @@
+PLATFORM ?= linux
+
 compile:
 	"C:/path/to/java17/bin/javac" -cp "plugins/*;plugins/de.persosim.simulator_1.4.0.20251112" AbstractFileProtocol.java -d output/
 
@@ -20,13 +22,13 @@ simulate-write-request:
 	opensc-tool -r 0 --send-apdu 00D6000005AABBCCDDEE
 
 patch-application:
-	cd patches && jar uf /home/joseph/work/PersoSim/linux/plugins/de.persosim.rcp_1.4.0.20251112.jar Application.e4xmi
+	cd patches && jar uf ../$(PLATFORM)/plugins/de.persosim.rcp_1.4.0.20251112.jar Application.e4xmi
 
 patch-fragment:
-	cd patches && jar uf /home/joseph/work/PersoSim/linux/plugins/de.persosim.simulator.ui_1.4.0.20251112.jar fragment.e4xmi
+	cd patches && jar uf ../$(PLATFORM)/plugins/de.persosim.simulator.ui_1.4.0.20251112.jar fragment.e4xmi
 
 build:
-	rm -rf persosim@sqm-$(VERSION)-linux
-	cp -r linux persosim@sqm-$(VERSION)-linux
-	zip -r persosim@sqm-$(VERSION)-linux.zip persosim@sqm-$(VERSION)-linux/
-	rm -rf persosim@sqm-$(VERSION)-linux
+	rm -rf persosim@sqm-$(VERSION)-$(PLATFORM)
+	cp -r $(PLATFORM) persosim@sqm-$(VERSION)-$(PLATFORM)
+	zip -r persosim@sqm-$(VERSION)-$(PLATFORM).zip persosim@sqm-$(VERSION)-$(PLATFORM)/
+	rm -rf persosim@sqm-$(VERSION)-$(PLATFORM)
