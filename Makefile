@@ -1,3 +1,4 @@
+SHELL := bash
 PLATFORM ?= linux
 
 compile:
