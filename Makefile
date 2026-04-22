@@ -18,3 +18,9 @@ deploy-abstract-file-protocol:
 
 simulate-write-request:
 	opensc-tool -r 0 --send-apdu 00D6000005AABBCCDDEE
+
+patch-application:
+	cd patches && jar uf /home/joseph/work/PersoSim/linux/plugins/de.persosim.rcp_1.4.0.20251112.jar Application.e4xmi
+
+patch-fragment:
+	cd patches && jar uf /home/joseph/work/PersoSim/linux/plugins/de.persosim.simulator.ui_1.4.0.20251112.jar fragment.e4xmi

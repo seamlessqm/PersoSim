@@ -13,6 +13,9 @@
       <children xsi:type="menu:Menu" xmi:id="_SQlcrjjUEeSelJkO-XchnA" elementId="de.persosim.rcp.mainMenue.help" label="Help">
         <children xsi:type="menu:HandledMenuItem" xmi:id="_SQlcrzjUEeSelJkO-XchnA" elementId="de.persosim.rcp.mainMenue.help.about" label="About" command="_SQlcpjjUEeSelJkO-XchnA"/>
       </children>
+      <children xsi:type="menu:Menu" xmi:id="_SQlcrjjUEeSelJkO-XchnA" elementId="de.persosim.rcp.mainMenue.help" label="PersoSim@SQMv1.2.0">
+        <children xsi:type="menu:HandledMenuItem" xmi:id="_SQlcrzjUEeSelJkO-XchnA" elementId="de.persosim.rcp.mainMenue.help.about" label="About" command="_SQlcpjjUEeSelJkO-XchnA"/>
+      </children>
     </mainMenu>
   </children>
   <handlers xmi:id="_SQlcnTjUEeSelJkO-XchnA" elementId="de.persosim.rcp.handlers.quitCommandHandler" contributionURI="bundleclass://de.persosim.rcp/de.persosim.rcp.handlers.QuitHandler" command="_SQlcnDjUEeSelJkO-XchnA"/>
