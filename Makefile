@@ -24,3 +24,9 @@ patch-application:
 
 patch-fragment:
 	cd patches && jar uf /home/joseph/work/PersoSim/linux/plugins/de.persosim.simulator.ui_1.4.0.20251112.jar fragment.e4xmi
+
+build:
+	rm -rf persosim@sqm-$(VERSION)-linux
+	cp -r linux persosim@sqm-$(VERSION)-linux
+	zip -r persosim@sqm-$(VERSION)-linux.zip persosim@sqm-$(VERSION)-linux/
+	rm -rf persosim@sqm-$(VERSION)-linux
